@@ -1,0 +1,725 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>travel on</title>
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+<link href="css/datepicker.css" type="text/css" rel="stylesheet" />
+
+<script src="js/jquery.min.js" ></script>
+<script src="js/boostrap.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+</head>
+
+<body>
+
+<div class="header">
+<div class="container">
+ <div class="row">
+ <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">     
+   <div class="logo">
+   <a href="#"><img src="images/logo.png" height="47" width="229" alt="" title="" /></a>
+   </div> 
+ </div>
+ <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+  <div class="menu">
+ <div class="dropdown">
+    <a href="#"><img src="images/expror_icon.png"  height="20" width="25" alt="" title="" /></a>
+    <button class="dropbtn">Explore by Category</button>
+    <ul class="dropdown-content explore">
+    <div class="triangle-up"></div>
+   <li> <a href="#"><img src="images/hotel_bed.png" height="17" width="25" alt="" title="" /><span>Hotel</span></a></li>
+    <li><a href="#"><img src="images/vp-icon.png" height="17" width="25" alt="" title="" /><span>Vacation Packages</span></a></li>
+  </ul>
+ </div>
+ <div class="dropdown">
+    <a href="#"><img src="images/account.png" height="20" width="25" alt="" title="" /></a>
+    <button class="dropbtn">My Account</button>
+    <div class="dropdown-content login_account">
+    <div class="triangle-up"></div>
+    <div class="account_info">
+    <div class="account_left">
+    <div class="login">
+      <a href="#"><img src="images/google.jpg" height="37" width="250" alt="" title="" /></a>
+    </div>
+    <div class="or center_part">
+     <img src="images/or.jpg" height="9" width="225" alt="" title="" />
+    </div>
+    <div class="travel_info center_part">
+     <h3>TravelionBE</h3>
+    </div>
+   <div class="email">
+  <input type="text" name="" value="" placeholder="Email Address" />
+  </div>
+  <div class="password">
+ <input type="text" name="" value="" placeholder="password" />
+  </div>
+  <div class="check">
+  <p><input type="checkbox" /> Remember me </p>       
+  </div>
+  <div class="sub center_part"><button type="button" onclick="">Continue</button></div>
+  <div class="forgot"><p><a href="#">Forgot Password?</a><br /> New User?<a href="#"> Create Account</a></p></div>
+  </div> 
+    <div class="account_right">
+        <div class="account_book">
+     <ul>
+      <li><a href="#">My Account</a></li>
+      <li><a href="#">My Profile</a></li>
+      <li><a href="#">Manage Bookings</a></li>
+     </ul>
+    </div>
+      <div class="account_book acc_set">
+     <ul>
+      <li><a href="#">View E-Ticket</a></li>
+      <li><a href="#">Cancel Bookings</a></li>
+      <li><a href="#">Check Refund Status</a></li>
+     </ul>
+    </div>
+     </div>
+    </div>
+    </div>
+  </div>
+   <div class="dropdown">
+    <a href="#"><img src="images/us.gif"  height="17" width="25" alt="" title="" /></a>
+    <button class="dropbtn">English</button>
+    <ul class="dropdown-content english">
+    <div class="triangle-up"></div>
+   <li class="active"> <a href="#"><img src="images/us-1.gif" height="11" width="16"  alt="" title="" /><span>English</span></a></li>
+   <li><a href="#"><img src="images/sa.gif" height="11" width="16" alt="" title="" /><span>Arabic</span></a></li>
+   <li><a href="#"><img src="images/ru.gif" height="11" width="16" alt="" title="" /><span>Russian</span></a></li>
+   <li><a href="#"><img src="images/cn.gif" height="11" width="16" alt="" title="" /><span>Chinese</span></a></li>
+    
+  </ul>
+ </div>
+  <div class="dropdown">
+    
+    <button class="dropbtn"><span>$ USD</span></button>
+    <ul class="dropdown-content usd">
+    <div class="triangle-up"></div>
+   <div class="top">
+   <label>All Currency</label>
+   <li><a href="#"><span>د.إ</span><p>Arab Emirates Dirham</p></a></li>
+   <li><a href="#"><span>A$</span><p>Australian Dollar</p></a></li>
+   <li><a href="#"><span>R$</span><p>Brazil Real</p></a></li>
+   <li><a href="#"><span>£</span><p>British Pound Sterling</p></a></li>
+   <li><a href="#"><span>C$</span><p>Canadian Dollar</p></a></li>
+   <li><a href="#"><span>¥</span><p>China Yuan</p></a></li>
+   <li><a href="#"><span>kr</span><p>Danish Kroner</p></a></li>
+   <li><a href="#"><span>€</span><p>Euro</p></a></li>
+   <li><a href="#"><span>HK$</span><p>Hong Kong Dollar</p></a></li>
+   <li><a href="#"><span>र</span><p>Indian Rupee</p></a></li>
+   <li><a href="#"><span>₪</span><p>Israel New Shekel</p></a></li>
+   <li><a href="#"><span>¥</span><p>Japanese Yen</p></a></li>
+   <li><a href="#"><span>M$</span><p>Mexican Peso</p></a></li>
+   <li><a href="#"><span>NZ$</span><p>New Zealand Dollar</p></a></li>
+   <li><a href="#"><span>kr</span><p>Norwegian Kroner</p></a></li>
+   <li><a href="#"><span>RUB</span><p>Russian Ruble</p></a></li>
+   <li><a href="#"><span>﷼</span><p>Saudi Arabia Riyal</p></a></li>
+   <li><a href="#"><span>S$</span><p>Singapore Dollar</p></a></li>
+   <li><a href="#"><span>₩</span><p>South Korean Won</p></a></li>
+   <li><a href="#"><span>kr</span><p>Swedish Krona</p></a></li>
+   <li><a href="#"><span>CHF</span><p>Swiss Franc</p></a></li>
+   <div class="last"><li class="active_currency_column"><a href=""><span>$</span><p>U.S. Dollar</p></a></li></div>
+   
+   </div>
+  </ul>
+ </div>
+ <div class="dropdown">
+    <a href="#"><img src="images/contact_support.png" height="20" width="25" alt="" title="" /></a>
+    <button class="dropbtn">Help</button>
+    <div class="dropdown-content Help">
+    <div class="triangle-up"></div>
+    <div class="support">
+    <div class="image">
+    <a href="#"><img src="images/help_icon.png" height="17" width="16" alt="" title="" /></a>
+    <span>Customer Support</span></div>
+    <div class="contact"><span><img src="images/phone-icon.png" height="11" width="11" alt="" title="" />US and Canada: 1-800-780-5733</span></div>
+    <div class="contact"><span><img src="images/phone-icon.png" height="11" width="11" alt="" title="" />Europe : 00-800-11-20-11-40</span></div>
+    </div>
+  </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ 
+ <div class="section">
+ <div id="first-slider">
+    <div id="carousel-example-generic" class="carousel slide carousel-fade">
+        <!-- Indicators -->
+        
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <!-- Item 1 -->
+            <div class="item active slide1">
+                <div class="row"><div class="container">
+                    <div class="col-md-3 text-right">
+                        
+                    </div>
+                    <div class="col-md-9 text-left text_change">
+                        <h3 data-animation="animated bounceInDown"><a href="#"> Barcelona, Spain</a>    </h3>
+                        <span>Starting from$650</span>            
+                     </div>
+                </div></div>
+             </div> 
+            <!-- Item 2 -->
+            <div class="item slide2">
+                <div class="row"><div class="container">
+                <div class="col-md-3 text-right">
+                        
+                    </div>
+                    <div class="col-md-9 text-left text_change">
+                       <h3 data-animation="animated bounceInDown"><a href="#"> Singapore</a> </h3>
+                        <span>Starting from$750</span>
+                     </div>
+                    
+                </div></div>
+            </div>
+            <!-- Item 3 -->
+            <div class="item slide3">
+                <div class="row"><div class="container">
+                 <div class="col-md-3 text-right">
+                        
+                    </div>
+                    <div class="col-md-9 text-left text_change">
+                       <h3 data-animation="animated bounceInDown"><a href="#"> Dubai, United Arab Emirates  </a>    </h3>
+                       <span>Starting from$950</span>
+                     </div>
+                       
+                </div></div>
+            </div>
+            <!-- Item 4 -->
+            <div class="item slide4">
+                <div class="row"><div class="container">
+                <div class="col-md-2 text-right">
+                        
+                    </div>
+                    <div class="col-md-10 text-left  text_change">
+                       <h3 data-animation="animated bounceInDown"><a href="#"> Las Vegas, Nevada, United States of America  </a>    </h3>
+                        <span>Starting from$1240</span>
+                     </div>
+                  
+                </div></div>
+            </div>
+            <!-- End Item 4 -->
+    <div class="item slide5">
+                <div class="row"><div class="container">
+                <div class="col-md-3 text-right">
+                        
+                    </div>
+                    <div class="col-md-9 text-left  text_change">
+                       <h3 data-animation="animated bounceInDown"><a href="#">Goa Velha, India  </a>    </h3>
+                      <span>Starting from$1150</span>
+                     </div>
+                   
+                </div></div>
+            </div>
+        </div>
+       </div>
+    </div>
+</div>
+<div class="tab">
+<div class="container">
+    <div class="row">
+    	<div class="col-md-12">
+        	 <div class="panel with-nav-tabs panel-default tab_main">
+                <div class="panel-heading">
+                        <ul class="nav nav-tabs abc">
+                            <li class="active"><a href="#tab1default" data-toggle="tab">
+                               <span><img src="images/hotel_icon_1.png" height="20" width="20" alt="" title="" /></span><label>Hotel</label>
+                            </a></li>
+                            <li><a href="#tab2default" data-toggle="tab"><span><img src="images/fliat_icon.png" height="20" width="20" alt="" title="" /></span><label>Vacation Packages</label></a></li>
+                        </ul>
+                </div>
+                <div class="panel-body xyz">
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="tab1default">
+                         <div class="def">
+                           <ul>
+                            <li class="search_loc"><input type="text" placeholder="City, Hotels, Airport or Landmark" id="destination" /></li>
+                             <li id ="date_main_li">
+                    <ul id="date_main_ul">
+                      <li class="date">
+                        <input name="txtCheckInDate" class="calenderHome" id="txtFrom" placeholder="Check-in" readonly="readonly" type="text"/>
+                      </li>
+                      <li class="date">
+                        <input name="txtCheckOutDate" class="calenderHome1" id="txtTo" placeholder="Check-out" readonly="readonly"type="text"/>
+                      </li>
+                      <li class="specific_dates">
+                        <label>
+                          <input type="checkbox" id="gotdate" name="date_less" />
+                          I don't have specific dates yet</label>
+                      </li>
+                    </ul>
+                  </li> 
+                  <li class="person_in">
+                   <input class="input_room" name="input_room" value="2 person in 1 room" placeholder="2 person in 1 room" readonly="readonly" type="text" />
+                    <div class="person_detail">
+                    <div class="person_diamond"> <img src="images/top-ero.png" width="20" height="10"  alt=""/> </div>
+                    <div class="room">
+                     <h2>Room : 1</h2>
+                     <ul class="person_entry">
+                      <li>
+                      <label>Adults(18+)</label>
+                      <div class="divide_room">
+                       <span><a href="#"><img src="images/minus.png" /></a></span> 
+                       <span class="room_no">
+                       <input class="no_rooms"  type="text" id="adult" readonly="readonly" name="room-1-adullt-total" size="1" value="2"  data-max="8" data-min"1"/>
+                       </span>
+                        <span class="minus"><a href="#"><img src="images/plus.png" /></a></span>
+                      </div>
+                      </li>
+                      <li>
+                  <label>Children(0-17) </label>
+                  <div class="divide_room">
+                       <span><a href="#"><img src="images/minus.png" /></a></span> 
+                       <span class="room_no">
+                       <input class="no_rooms"  type="text" id="adult" readonly="readonly" name="room-1-adullt-total" size="1" value="0"  data-max="8" data-min"1"/>
+                       </span>
+                        <span class="minus"><a href="#"><img src="images/plus.png" /></a></span>
+                      </div>
+                     
+                  </li>
+                   <div class="add_button">
+                      <a href="#" id="addroom">Add Room</a>
+                      </div>
+                    <div class="done">
+                    <button type="button" id="done" class="done" onclick=""  id="done">
+                            Done
+                            </button>
+                    </div>
+                     </ul>
+                    </div>
+                    </div>
+                  </li>
+                  <li class="search_btn"><input type="submit" name="HotelSearch" id="HotelSearch" value="Search" class="search-btn" /></li>
+                  <li class="tip_main sep_date"><p>Tip: Select fewer than 4 adults for the most results</p></li>
+                  </ul>
+               </div>
+           </div>
+           
+                        
+  <div class="tab-pane fade" id="tab2default">
+       <div class="def pqr">
+           <ul>
+<li class="Hotel_serc"><label>Region</label><input type="text" placeholder="Search Your Holiday Destination" id="destination" /></li>
+   <li class="month_part "><label>Month</label>
+                            <div class="select_border">
+                            <span><img src="images/date-icon.png" /></span>
+                            <select class="month_box" name="month" id="month" >
+                        <option value="00">-- All --</option>
+                        <option value="01">January</option>
+                        <option value="02" > February</option>
+                        <option value="03" >March</option>
+                        <option value="04">April</option>
+                        <option value="05">May</option>
+                        <option value="06">June</option>
+                        <option value="07">July</option>
+                        <option value="08">August</option>
+                        <option value="09">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                      </select>
+                    </div>
+                  </li>
+<li class="month_part month">
+                    <label>Tour Theme</label>
+                    <div class="select_border"> <span class="tour_them_icon"><img src="images/icon_vp.png" width="19" height="17"  alt=""/></span>
+                      <select class="month_box" name="category" id="category" >
+                        <option value="00">-- All --</option>
+                        <option value="22">Romance</option>
+                        <option value="23">Theme Parks</option>
+                        <option value="24">Family</option>
+                        <option value="25">Shooping</option>
+                        <option value="26">Nightlife</option>
+                        <option value="27">Entertainment</option>
+                        <option value="28">Adventure</option>
+                      </select>
+                    </div>
+                  </li>
+ <li class="month_part btn_search">
+                    <button onclick="func_searchForm();" class="search_Holidays_btn">Search Holidays</button>
+                  </li>
+                        
+        </div>
+           </li>
+                      
+          </ul>
+                   
+                    
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>    
+</div>
+</div> 
+
+
+<div class="best_deal">
+ <div class="container">
+  <div class="row">
+   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
+     <div class="daily">
+       <div class="image_box">
+         <img src="images/hotel-imges-icon.jpg" height="63" width="63" alt="" title="" />
+       </div>
+       <div class="text_box">
+       <h3>Over 4,30,000 hotels available</h3>
+       </div>
+     </div>
+   </div> 
+   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
+     <div class="daily">
+       <div class="image_box">
+         <img src="images/dolar-images-icon.jpg" height="63" width="63" alt="" title="" />
+       </div>
+       <div class="text_box">
+       <h3>New deals and hotels added daily</h3>
+       </div>
+     </div>
+   </div> 
+   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
+     <div class="daily">
+       <div class="image_box">
+         <img src="images/manege-image-icom.jpg" height="63" width="63" alt="" title="" />
+       </div>
+       <div class="text_box">
+       <h3>Manage your bookings online</h3>
+       </div>
+     </div>
+   </div> 
+   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
+     <div class="daily">
+       <div class="image_box">
+         <img src="images/secur-image-icon.jpg" height="63" width="63" alt="" title="" />
+       </div>
+       <div class="text_box">
+       <h3>100% secure payment</h3>
+       </div>
+     </div>
+   </div> 
+   
+  </div> 
+ </div>
+</div>
+
+<div class="destination_part">
+<div class="container">
+  <div class="row">
+   <div class="col-md-8">
+     <div class="top_location">
+       <h3>Top Locations</h3>
+      <a href="http://demo.travelionbe.com/en_US/destinations/">More destinations »</a> </div>
+      <div class="destination_hotel">
+         <ul>
+            <li> <a href="#" target="_blank">
+              <div class="hotel_img_box"> <img src="images/newyork.jpg" width="253" height="148"  alt=""/> </div>
+              <h3>New York</h3>
+              <p>1150&nbsp;Hotels</p>
+              <div class="hover_box"></div>
+              </a> </li>
+            <li> <a href="#" target="_blank">
+              <div class="hotel_img_box"> <img src="images/lasvegas.jpg" width="253" height="148"  alt=""/> </div>
+              <h3>Las Vegas</h3>
+              <p>241&nbsp;Hotels</p>
+              <div class="hover_box"></div>
+              </a> </li>
+            <li> <a href="#" target="_blank">
+              <div class="hotel_img_box"> <img src="images/paris.jpg" width="253" height="148"  alt=""/> </div>
+              <h3>Paris</h3>
+              <p>2457&nbsp;Hotels</p>
+              <div class="hover_box"></div>
+              </a> </li>
+            <li> <a href="#" target="_blank">
+              <div class="hotel_img_box"> <img src="images/london.jpg" width="253" height="148"  alt=""/> </div>
+              <h3>London</h3>
+              <p>1758&nbsp;Hotels</p>
+              <div class="hover_box"></div>
+              </a> </li>
+            <li> <a href="#" target="_blank">
+              <div class="hotel_img_box"> <img src="images/venice.jpg" width="253" height="148"  alt=""/> </div>
+              <h3>Venice</h3>
+              <p>760&nbsp;Hotels</p>
+              <div class="hover_box"></div>
+              </a> </li>
+            <li> <a href="#" target="_blank">
+              <div class="hotel_img_box"> <img src="images/singapore.jpg" width="253" height="148"  alt=""/> </div>
+              <h3>Singapore</h3>
+              <p>526&nbsp;Hotels</p>
+              <div class="hover_box"></div>
+              </a> </li>
+            <li> <a href="#" target="_blank">
+              <div class="hotel_img_box"> <img src="images/dubai.jpg" width="253" height="148"  alt=""/> </div>
+              <h3>Dubai</h3>
+              <p>532&nbsp;Hotels</p>
+              <div class="hover_box"></div>
+              </a> </li>
+            <li> <a href="#" target="_blank">
+              <div class="hotel_img_box"> <img src="images/mumbai.jpg" width="253" height="148"  alt=""/> </div>
+              <h3>Mumbai</h3>
+              <p>393&nbsp;Hotels</p>
+              <div class="hover_box"></div>
+              </a> </li>
+            <li> <a href="#" target="_blank">
+              <div class="hotel_img_box"> <img src="images/hongkong.jpg" width="253" height="148"  alt=""/> </div>
+              <h3>Hong Kong</h3>
+              <p>890&nbsp;Hotels</p>
+              <div class="hover_box"></div>
+              </a> </li>
+          </ul>
+       </div>
+     </div>
+     </div>
+   </div>
+  <div class="right_part">
+ <h2>Why book with TravelionBE</h2>
+ <div class="price">
+  <ul>
+			<li>
+			<div class="Price-icon-box"><img src="images/icon-1.png" alt="" height="60" width="60" />
+			</div>
+
+			<div class="Price-text-box">
+				<h3>4,30,000 properties worldwide</h3>
+				<p>Best Price Guarantee</p>
+			</div>
+			</li>
+			
+			<li>
+			<div class="Price-icon-box"><img src="images/icon-2.png" alt="" height="60" width="60" />
+            </div>
+			<div class="Price-text-box">
+			<h3>New deals listed daily - for every budget!</h3>
+			<p>No booking charges - Save money!</p>
+			</div>
+			</li>
+			
+			<li>
+			<div class="Price-icon-box"><img src="images/icon-3.png" alt="" height="60" width="60" />
+            </div>
+			<div class="Price-text-box">
+			<h3>Make changes to bookings online</h3>
+			<p>No Cancellation fees</p>
+			</div>
+			</li>
+			
+			<li>
+			<div class="Price-icon-box"><img src="images/icon-4.png" alt="" height="60" width="60" />
+            </div>
+			<div class="Price-text-box">
+			<h3>Trip Advisor Reviews & Ratings</h3>
+			<p>200 million verified reviews</p>
+			</div>
+			</li>
+
+			<li>
+			<div class="Price-icon-box"><img src="images/icon-5.png" alt="" height="60" width="60" />
+            </div>
+			<div class="Price-text-box">
+			<h3>Available anywhere, anytime</h3>
+			<p>Trusted by over 27,791,024 happy travellers</p>
+			</div>
+			</li>
+
+			<li>
+			<div class="Price-icon-box"><img src="images/icon-6.png" alt="" height="60" width="60" />
+            </div>
+			<div class="Price-text-box">
+			<h3>Around-the-clock customer service</h3>
+			<p>24x7 Customer Support</p>
+			</div>
+			</li>
+			</ul>
+ </div>
+</div>
+</div>
+
+<div class="feature_hotel">
+<div class="container">
+ <div class="row">
+  <div class="col-md-8">
+   <div class="top_location">
+    <h3>FEATURED HOTELS</h3>
+    <a href="#">More »</a>
+   </div>
+   <ul class="future_hotel_list">
+     <li>
+     <div class="hotel_img_main">
+     <div class="hotel_img_1">
+      <img class="img-responsive" src="images/hotel_img-1.jpg" height="170" width="350" alt="" title="" />
+       <img class="star_rank" src="images/4.0.png" alt="4.0 star" height="9" width="75"/>
+       <span><p>Starting from</p><label>$299</label></span>
+       <div class="hotel_detail">
+        <div class="hotel_name">
+        <h2><a href="#">Bay Hotel, Singapore</a></h2>
+        </div>
+       </div>
+     </div>
+     </div></li>
+      <li>
+     <div class="hotel_img_main">
+     <div class="hotel_img_1">
+      <img class="img-responsive" src="images/hotel_img-2.jpg" height="170" width="350" alt="" title="" />
+       <img class="star_rank" src="images/4.0.png" alt="4.0 star" height="9" width="75"/>
+       <span><p>Starting from</p><label>$320</label></span>
+       <div class="hotel_detail">
+        <div class="hotel_name">
+        <h2><a href="#">Hotel-Willow-Banks, Shimla</a></h2>
+        </div>
+       </div>
+     </div>
+     </div></li>
+   </ul>
+  </div>
+  <div class="col-md-4">
+<div class="top_location deal_head">
+ <h3>DEALS IN YOUR INBOX</h3>
+ </div>
+ <div class="deal_in">
+ <p>Subscribe to our newsletter to receive the latest news and Exclusive deals</p>
+ <span>
+<input type="text" id="email" placeholder="Email address" />      
+<input type="submit" name="sub_send" id="sub_btn" value="SUBSCRIBE"/>
+ </span>
+ </div>
+ <div class="top_location deal_head contact_us_head">
+ <h3>CONNECT WITH US</h3>
+ </div>
+ <ul class="contact_with">
+ <li> <a href="#" target="_blank" ><img src="images/facebook_icon.png" alt="" width="50" height="50"  title=""/></a></li>
+ <li> <a href="#" target="_blank" ><img src="images/tweeter.png" alt="" width="50" height="50" /></a></li>
+ <li>  <a href="#" target="_blank" ><img src="images/google_plus.png" alt="" width="50" height="50" /></a> </li>                           
+ <li><a href="#" target="_blank" ><img src="images/in_link_icon.png" alt="" width="50" height="50" /></a>    </li>                         
+ <li><a href="#" target="_blank" ><img src="images/link_icon.png" alt="" width="50" height="50" /></a>     </li>                                                    
+ </ul>
+</div>
+ </div>
+</div>
+</div>
+<div class="footer">
+<div class="footer_menu">
+<ul>
+<li><a href="#" class="active">Home</a></li>
+            <li><a href="#" class="">About us</a></li>
+            <li><a href="#" class="">All destinations</a></li>
+            <li><a href="#" class="">Customer support</a></li>
+            <li ><a href="#" class="">Vacation Packages</a></li>
+            <li><a href="#" class="">Contact Us</a></li>
+</ul>
+</div>
+<div class="container">
+<div class="col-md-12">
+ <div class="footer_box">
+  <div class="footer_container">
+  <ul> <li>
+                            <span>Verisign Secure</span>
+                            <p class="footer-img verisign"></p>
+                        </li>
+                        <li>
+                            <span>We Accept (more)</span>
+                            <ul>
+                                <li><p class="footer-img m-card"></p></li>
+                                <li><p class="footer-img visa"></p></li>
+                                <li><p class="footer-img am-ex"></p></li>
+                                <li><p class="footer-img discover"></p></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>Hotels Reviews By</span>
+                            <p class="footer-img trip-review"></p>
+                        </li></ul>
+  </div>
+ </div>
+</div>
+</div>
+<div class="copy">
+<div class="container">
+ <p>Copyright &copy; 2017 <a href="#">TravelionBE </a> All rights reserved.</p> 
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms &amp; Conditions</a></li>
+            </ul>
+</div>
+<div>
+            <span>Powered By :&nbsp;<a href="#">TravelOTAS</a></span>
+        </div>
+</div>
+</div>
+
+
+<script>
+(function( $ ) {
+
+    //Function to animate slider captions 
+    function doAnimations( elems ) {
+		//Cache the animationend event in a variable
+		var animEndEv = 'webkitAnimationEnd animationend';
+		
+		elems.each(function () {
+			var $this = $(this),
+				$animationType = $this.data('animation');
+			$this.addClass($animationType).one(animEndEv, function () {
+				$this.removeClass($animationType);
+			});
+		});
+	}
+	
+	//Variables on page load 
+	var $myCarousel = $('#carousel-example-generic'),
+		$firstAnimatingElems = $myCarousel.find('.item:first').find("[data-animation ^= 'animated']");
+		
+	//Initialize carousel 
+	$myCarousel.carousel();
+	
+	//Animate captions in first slide on page load 
+	doAnimations($firstAnimatingElems);
+	
+	//Pause carousel  
+	$myCarousel.carousel('pause');
+	
+	
+	//Other slides to be animated on carousel slide event 
+	$myCarousel.on('slide.bs.carousel', function (e) {
+		var $animatingElems = $(e.relatedTarget).find("[data-animation ^= 'animated']");
+		doAnimations($animatingElems);
+	});  
+    $('#carousel-example-generic').carousel({
+        interval:2000,
+        pause: "false"
+    });
+	
+})(jQuery);	
+
+$(document).ready(function(e) {
+        $(".input_room").click(function(){
+			$(".person_detail").toggle();
+			});
+		 $(".done").click(function(){
+			$(".person_detail").hide();
+			});
+    });
+	$(document).ready(function() {
+        $('#txtFrom').datepicker();
+			$('#txtTo').datepicker();
+						
+	});
+
+
+
+</script>
+
+
+</body>
+</html>
